@@ -1,0 +1,14 @@
+version: "v1.0.0"
+services:
+  student-database:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=1234
+    ports:
+      - 5432:5432
+  grade-database:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=1234
+    ports:
+      - 5433:5432

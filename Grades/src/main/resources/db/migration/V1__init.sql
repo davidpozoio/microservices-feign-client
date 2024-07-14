@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Grades(
+    id SERIAL PRIMARY KEY,
+    subject VARCHAR(100) NOT NULL,
+    score INT NOT NULL,
+    student_id INT NOT NULL
+)
